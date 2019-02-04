@@ -4,7 +4,7 @@ import numpy as np
 # generate a normal distribution given 3 parameters
 a = np.random.normal(55, 5.0, 10)
 
-# print (a)
+print (type(a))
 
 listX = [1,2,3,4,5,6]
 listX3rdIndexAndUp = listX[3:]
