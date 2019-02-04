@@ -16,3 +16,15 @@ print(listXLast2Indexes)
 listOfLists = [listX, listX3rdIndexAndUp, listXLast2Indexes]
 
 print(listOfLists)
+
+# sorting
+
+
+# use standard library function length as a custom sorting argument. 
+listOfLists.sort(key=len)
+print(listOfLists)
+
+
+listX.sort(reverse=True)
+
+print(listX)
