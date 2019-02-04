@@ -20,7 +20,7 @@ print(listOfLists)
 # sorting
 
 
-# use standard library function length as a custom sorting argument. 
+# use standard library function length as a custom sorting argument. Outputs the arrays sorted from smallest to largest 
 listOfLists.sort(key=len)
 print(listOfLists)
 
