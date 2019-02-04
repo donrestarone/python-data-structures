@@ -6,4 +6,6 @@ csvLine = '32,120000,10'
 (age,income, yearsOfExperience) = csvLine.split(',')
 
 personOne = (age,income, yearsOfExperience)
+# reference tuple like an array index
+print(personOne[0])
 print(personOne)
